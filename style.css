@@ -34,3 +34,35 @@ header{
     margin:0 7px;
     cursor:pointer;
 }
+
+.nav{
+    height:50px;
+    margin-bottom: 20px;
+}
+.nav ul{
+    margin: 20px 0 0 0;
+}
+.navbar-nav li{
+    padding: 2px 2px;
+}
+.navbar-nav li a{
+    color:aliceblue;
+    font-size: 19px;
+    font-weight: 400;
+}
+.navbar-nav li a:hover{
+    color:black;
+}
+
+
+.footer{
+    display:flex;
+    padding:5%;
+    justify-content: space-between;
+}
+.Sobre-Nosotros, .Redes, .Suscribirse{
+    flex:1;
+    margin:5px;
+    padding:10px;
+    border:1px solic #ccc;
+}
